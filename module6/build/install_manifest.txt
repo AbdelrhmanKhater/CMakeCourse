@@ -1,0 +1,5 @@
+/usr/local/include/mathlib/addition.h
+/usr/local/include/mathlib/division.h
+/usr/local/lib/mathlib/libmathlib.a
+/usr/local/lib/mathlib/mathlib-config.cmake
+/usr/local/lib/mathlib/mathlib-config-noconfig.cmake

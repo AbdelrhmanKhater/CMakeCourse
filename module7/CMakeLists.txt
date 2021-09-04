@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.16)
+find_package(mathlib)
+PROJECT(first VERSION 1.0.0)
+
+if(mathlib_FOUND)
+	message("FOUND")
+	add_executable(calc main.cpp)
+	target_link_libraries(calc mathlib)
+else()
+	message("Not Found")
+endif()

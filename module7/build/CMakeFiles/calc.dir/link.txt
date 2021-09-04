@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/calc.dir/main.cpp.o  -o calc  /usr/local/lib/mathlib/libmathlib.a 

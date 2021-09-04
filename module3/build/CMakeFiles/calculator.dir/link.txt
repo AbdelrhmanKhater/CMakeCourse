@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/calculator.dir/main.cpp.o  -o calculator  mathlib/libmath_lib.a printlib/libprint_lib.a 

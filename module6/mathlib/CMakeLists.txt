@@ -1,0 +1,5 @@
+add_library(mathlib src/addition.cpp src/division.cpp)
+target_include_directories(mathlib PUBLIC $<INSTALL_INTERFACE:include> $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>)
+install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/include/mathlib/addition.h ${CMAKE_CURRENT_SOURCE_DIR}/include/mathlib/division.h DESTINATION ${CMAKE_INSTALL_PREFIX}/include/mathlib)
+install(TARGETS mathlib EXPORT my_export DESTINATION ${CMAKE_INSTALL_PREFIX}/lib/mathlib)
+install(EXPORT my_export FILE mathlib-config.cmake DESTINATION ${CMAKE_INSTALL_PREFIX}/lib/mathlib)

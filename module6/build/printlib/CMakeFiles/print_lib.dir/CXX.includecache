@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../printlib/include/printlib/print_res.h
+
+/home/osboxes/cmake_tutorials/module6/printlib/src/print_res.cpp
+iostream
+-
+printlib/print_res.h
+/home/osboxes/cmake_tutorials/module6/printlib/src/printlib/print_res.h
+

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../mathlib/include/mathlib/addition.h
+
+../mathlib/include/mathlib/division.h
+
+../printlib/include/printlib/print_res.h
+
+/home/osboxes/cmake_tutorials/module3/main.cpp
+iostream
+-
+mathlib/addition.h
+/home/osboxes/cmake_tutorials/module3/mathlib/addition.h
+mathlib/division.h
+/home/osboxes/cmake_tutorials/module3/mathlib/division.h
+printlib/print_res.h
+/home/osboxes/cmake_tutorials/module3/printlib/print_res.h
+

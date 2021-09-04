@@ -1,0 +1,9 @@
+/home/osboxes/cmake_tutorials/module3/build/CMakeFiles/rebuild_cache.dir
+/home/osboxes/cmake_tutorials/module3/build/CMakeFiles/edit_cache.dir
+/home/osboxes/cmake_tutorials/module3/build/CMakeFiles/calculator.dir
+/home/osboxes/cmake_tutorials/module3/build/mathlib/CMakeFiles/rebuild_cache.dir
+/home/osboxes/cmake_tutorials/module3/build/mathlib/CMakeFiles/edit_cache.dir
+/home/osboxes/cmake_tutorials/module3/build/mathlib/CMakeFiles/math_lib.dir
+/home/osboxes/cmake_tutorials/module3/build/printlib/CMakeFiles/rebuild_cache.dir
+/home/osboxes/cmake_tutorials/module3/build/printlib/CMakeFiles/edit_cache.dir
+/home/osboxes/cmake_tutorials/module3/build/printlib/CMakeFiles/print_lib.dir

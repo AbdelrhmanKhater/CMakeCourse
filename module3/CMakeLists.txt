@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16.3)
+project(cmakeproj VERSION 1.0.0)
+add_executable(calculator main.cpp)
+add_subdirectory(mathlib)
+add_subdirectory(printlib)
+target_link_libraries(calculator math_lib print_lib)
+

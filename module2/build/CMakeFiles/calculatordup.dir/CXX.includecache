@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/osboxes/cmake_tutorials/module2/addition.h
+
+/home/osboxes/cmake_tutorials/module2/division.h
+
+/home/osboxes/cmake_tutorials/module2/main.cpp
+iostream
+-
+addition.h
+/home/osboxes/cmake_tutorials/module2/addition.h
+division.h
+/home/osboxes/cmake_tutorials/module2/division.h
+print_res.h
+/home/osboxes/cmake_tutorials/module2/print_res.h
+
+/home/osboxes/cmake_tutorials/module2/print_res.h
+
